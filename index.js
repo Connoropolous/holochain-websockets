@@ -23,6 +23,7 @@ ws.on('message', function(data) {
           return m.Hash === e.Hash
         })
       }).forEach(function(e) {
+				console.log('\n')
         console.log(e.Entry)
       })
       messages = data
